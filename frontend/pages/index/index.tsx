@@ -9,8 +9,8 @@ greycat.default = await GreyCat.init({
   unauthorizedHandler: () => location.assign('../login.html'),
 });
 
-// load 'app-home' asynchronously
-await import('./app-home');
+// load 'app-home' asynchron
+import('./app-home');
 
 document.body.appendChild(
   <app-layout parent=".." current=".">
