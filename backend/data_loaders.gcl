@@ -27,8 +27,9 @@ type DataLoaders {
     static fn loadRemunerations(path: String) {
         info("Loading remunerations");
         // Initialize indexes
-        employees_by_id = nodeIndex<String, node<Employee>>::new();
-        employees_by_name = nodeIndex<String, node<Employee>>::new();
+        employees_by_id ?= nodeIndex<String, node<Employee>>::new();
+        employees_by_name ?= nodeIndex<String, node<Employee>>::new();
+
         var fileWalker = FileWalker::new(path);
         var file = fileWalker?.next();
         var format = CsvFormat {
