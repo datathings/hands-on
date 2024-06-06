@@ -1,0 +1,220 @@
+Employee Id;Employee;Date;Client Name;Project;Job name;Hour(s)
+DT09;Employee 6;03/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT01;Employee 12;03/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;04/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT05;Employee 7;04/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT01;Employee 12;04/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;05/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT09;Employee 6;06/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT05;Employee 7;06/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT09;Employee 6;07/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT01;Employee 12;07/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;11/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT01;Employee 12;11/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+12;Employee 16;11/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;12/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+12;Employee 16;12/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT04;Employee 2;13/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;13/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+12;Employee 16;13/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT04;Employee 2;14/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT09;Employee 6;14/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT01;Employee 12;14/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+12;Employee 16;14/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;17/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+12;Employee 16;17/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;18/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT05;Employee 7;18/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+12;Employee 16;18/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;19/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT05;Employee 7;19/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;3
+12;Employee 16;19/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;20/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT05;Employee 7;20/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;3
+12;Employee 16;20/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT04;Employee 2;21/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;21/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT05;Employee 7;21/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;3
+12;Employee 16;21/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;24/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT04;Employee 2;24/04/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;8
+DT05;Employee 7;24/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+12;Employee 16;24/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;25/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT04;Employee 2;25/04/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;8
+DT05;Employee 7;25/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+12;Employee 16;25/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;26/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT04;Employee 2;26/04/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;8
+DT05;Employee 7;26/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;26/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;27/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT04;Employee 2;27/04/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;8
+DT05;Employee 7;27/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+12;Employee 16;27/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;28/04/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT04;Employee 2;28/04/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;8
+12;Employee 16;28/04/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;02/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT01;Employee 12;02/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;02/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;02/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;03/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;03/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT09;Employee 6;03/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;03/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;04/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;04/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;04/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT05;Employee 7;05/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;3
+DT01;Employee 12;05/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+12;Employee 16;05/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT01;Employee 12;08/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+12;Employee 16;08/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;10/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;10/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT09;Employee 6;10/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;10/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;11/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;11/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT09;Employee 6;11/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;11/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;12/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT01;Employee 12;12/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;12/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;12/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;15/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;15/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT09;Employee 6;15/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;15/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;16/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;16/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT01;Employee 12;16/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;16/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;16/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;17/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT04;Employee 2;17/05/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;8
+DT05;Employee 7;17/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT09;Employee 6;17/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;17/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;19/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;2
+DT01;Employee 12;19/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;19/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+12;Employee 16;19/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;22/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;22/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;22/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;23/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;23/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT01;Employee 12;23/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;23/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;23/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;24/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;24/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;24/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT04;Employee 2;25/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;8
+DT09;Employee 6;25/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;25/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;25/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;26/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;26/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;3
+DT01;Employee 12;26/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;26/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;26/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT09;Employee 6;30/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT01;Employee 12;30/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;30/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;30/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;31/05/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;31/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;31/05/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;01/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;01/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT09;Employee 6;01/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;01/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;02/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;02/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT01;Employee 12;02/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;02/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;02/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;05/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;05/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT09;Employee 6;05/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;05/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;06/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;06/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT01;Employee 12;06/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;06/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;06/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT04;Employee 2;07/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;2
+DT09;Employee 6;07/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;07/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;3
+DT09;Employee 6;07/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;07/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;08/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;08/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;08/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;09/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT01;Employee 12;09/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;09/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;09/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;12/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;12/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT09;Employee 6;12/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;12/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;13/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT01;Employee 12;13/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;13/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;13/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;14/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;14/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;14/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;15/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT09;Employee 6;15/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;15/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;16/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;16/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT01;Employee 12;16/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;16/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;16/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT09;Employee 6;19/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT01;Employee 12;19/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;19/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;19/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;20/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;20/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT01;Employee 12;20/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;20/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;20/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;21/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT04;Employee 2;21/06/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;3
+DT09;Employee 6;21/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;21/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;22/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT04;Employee 2;22/06/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;8
+DT09;Employee 6;22/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;22/06/2023;DataThings;Minerva;[Minerva] WP3: Research for anomaly detection models on unstructured data;8
+DT09;Employee 6;26/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT05;Employee 7;26/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT09;Employee 6;26/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;26/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;27/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT04;Employee 2;27/06/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;4
+DT05;Employee 7;27/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;2
+DT01;Employee 12;27/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;27/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;27/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;28/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT04;Employee 2;28/06/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;6
+DT05;Employee 7;28/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+DT09;Employee 6;28/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;28/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;29/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT04;Employee 2;29/06/2023;European Commission;InterQ;[InterQ] WP8 - Dissemination;4
+DT05;Employee 7;29/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;3
+DT09;Employee 6;29/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;29/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;30/06/2023;European Commission;InterQ;[InterQ] WP7 - Demos;4
+DT01;Employee 12;30/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8
+DT09;Employee 6;30/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;4
+12;Employee 16;30/06/2023;DataThings;Minerva;[Minerva]  WP1: Requirements analysis;8

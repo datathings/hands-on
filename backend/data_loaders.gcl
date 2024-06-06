@@ -1,0 +1,226 @@
+
+use model;
+use io;
+
+@unserializable
+private type RemunerationLine {
+	id: String;
+	name: String;
+	fromDate: time;
+	toDate: time;
+	gross: float;
+	total_company: float;
+}
+
+private type TimesheetLine {
+	employee_id: String;
+	employee_name: String;
+	date: time;
+	client: String;
+	project: String;
+	job: String;
+	hours: duration;
+}
+
+type DataLoaders {
+
+    static fn loadRemunerations(path: String) {
+        info("Loading remunerations");
+        // Initialize indexes
+        employees_by_id = nodeIndex<String, node<Employee>>::new();
+        employees_by_name = nodeIndex<String, node<Employee>>::new();
+        var fileWalker = FileWalker::new(path);
+        var file = fileWalker?.next();
+        var format = CsvFormat {
+            header_lines: 1,
+            separator: ';',
+            string_delimiter: '"',
+            decimal_separator: ',',
+            columns_size: 6,
+            columns: [
+            CsvColumnString {
+                name:"Id",
+                mandatory:true,
+                offset:0,
+                trim:true,
+                try_number:false,
+                try_json:false,
+                values:[]
+            },
+            CsvColumnString {
+                name:"Nom",
+                mandatory:true,
+                offset:1,
+                trim:true,
+                try_number:false,
+                try_json:false,
+                values:[]
+            },
+            CsvColumnDate {
+                name:"Date début",
+                mandatory:true,
+                offset:2,
+                format:"%d/%m/%Y",
+                as_time:true
+            },
+            CsvColumnDate {
+                name:"Date fin",
+                mandatory:true,
+                offset:3,
+                format:"%d/%m/%Y",
+                as_time:true
+            },
+            CsvColumnFloat {
+                name:"Fixe Mensuel",
+                mandatory:true,
+                offset:4
+            },
+            CsvColumnFloat {
+                name:"Coût Total",
+                mandatory:true,
+                offset:5
+            }
+            ]
+        };
+        while(file != null) {
+            info("Processing ${file.path}");
+            var reader = CsvReader::new(file.path, format);
+            var line = RemunerationLine{id: "", name: "", fromDate: 0time, toDate: 0time, gross: 0f, total_company: 0f};
+            while(reader.available() > 0) {
+                reader.read_to(line);
+                var nEmployee = employees_by_id.get(line.id);
+                if(nEmployee == null) {
+                    nEmployee = node<Employee>::new(Employee{
+                        id: line.id,
+                        name: line.name,
+                        gross_remuneration: nodeTime<float>::new(),
+                        time_logs: nodeTime<nodeIndex<node<TimeLog>>>::new(),
+                    });
+                    employees_by_id.set(nEmployee->id, nEmployee);
+                    employees_by_name.set(nEmployee->name, nEmployee);
+                }
+                nEmployee->gross_remuneration.setAt(line.fromDate, line.gross);
+            }
+            file = null;
+            file = fileWalker?.next();
+        }
+    }
+
+    static fn loadTimesheets(path: String) {
+        info("Loading timesheets");
+        projects_by_name = nodeIndex<String, node<Project>>::new();
+        var fileWalker = FileWalker::new(path);
+        var file = fileWalker?.next();
+        var format = CsvFormat {
+            header_lines: 1,
+            separator: ';',
+            string_delimiter: '"',
+            decimal_separator: ',',
+            columns_size: 7,
+            columns: [
+            CsvColumnString {
+                name:"employee_id",
+                mandatory:false,
+                offset:0,
+                trim:true,
+                try_number:false,
+                try_json:false,
+                values:[]
+            },
+            CsvColumnString {
+                name:"employee_name",
+                mandatory:false,
+                offset:1,
+                trim:true,
+                try_number:false,
+                try_json:false,
+                values:[]
+            },
+            CsvColumnDate {
+                name:"date",
+                mandatory:false,
+                offset:2,
+                format:"%d/%m/%Y",
+                as_time:true
+            },
+            CsvColumnString {
+                name:"client",
+                mandatory:false,
+                offset:3,
+                trim:true,
+                try_number:false,
+                try_json:false,
+                values:[]
+            },
+            CsvColumnString {
+                name:"project",
+                mandatory:false,
+                offset:4,
+                trim:true,
+                try_number:false,
+                try_json:false,
+                values:[]
+            },
+            CsvColumnString {
+                name:"job",
+                mandatory:true,
+                offset:5,
+                trim:true,
+                try_number:false,
+                try_json:false,
+                values:[]
+            },
+            CsvColumnDuration {
+                name:"hours",
+                mandatory:true,
+                offset:6,
+                unit: DurationUnit::hours,
+            }
+            ]
+        };
+        while(file != null) {
+            info("Processing ${file.path}");
+            var reader = CsvReader::new(file.path, format);
+            var line = TimesheetLine {employee_id:"", employee_name:"", project:"", client:"", date: 0time, job: "", hours: 0us};
+            while(reader.available() > 0) {
+                reader.read_to(line);
+                var nEmpployee = employees_by_id.get(line.employee_id);
+                if(nEmpployee == null) {
+                    warn("Employee not foud with ID ${line.employee_id}");
+                } else {
+                    var nProject = projects_by_name.get(line.project);
+                    if(nProject == null) {
+                        nProject = node<Project>::new(Project{
+                            name: line.project,
+                            workpackages: nodeIndex<String, node<Workpackage>>::new(),
+                        });
+                        projects_by_name.set(nProject->name, nProject);
+                    }
+                    var nWorkpackage = nProject->workpackages.get(line.job);
+                    if(nWorkpackage == null) {
+                        nWorkpackage = node<Workpackage>::new(Workpackage{
+                            name: line.job,
+                            project: nProject,
+                            time_logs: nodeIndex<String, nodeTime<node<TimeLog>>>::new(),
+                        });
+                        nProject->workpackages.set(nWorkpackage->name, nWorkpackage);
+                    }
+                    var nTimeLogs = nWorkpackage->time_logs.get(line.employee_id);
+                    if(nTimeLogs == null) {
+                        nTimeLogs = nodeTime<node<TimeLog>>::new();
+                        nWorkpackage->time_logs.set(line.employee_id, nTimeLogs);
+                    }
+                    var nTimeLog = node<TimeLog>::new(TimeLog{
+                        employee: nEmpployee,
+                        project: nProject,
+                        workpackage: nWorkpackage,
+                        date: line.date.toDate(TimeZone::Europe_Luxembourg),
+                        amount: line.hours,
+                    });
+                    nTimeLogs.setAt(line.date, nTimeLog);
+                }
+            }
+            file = fileWalker?.next();
+        }
+    }
+}

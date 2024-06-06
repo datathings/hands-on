@@ -1,0 +1,61 @@
+use model;
+use math;
+
+@expose
+fn getProjectsList(): Array<String> {
+    var result = Array<String>::new(0);
+    for (name, _ in projects_by_name) {
+        result.add(name);
+    }
+    return result;
+}
+
+@expose
+fn computeReport(project: String?, from: time, to: time): Table {
+    var result = Table::new(4);
+    var line = 0;
+    if(project != null) {
+        var nProj = projects_by_name.get(project);
+        if(nProj != null) {
+            reportForProject(nProj, from, to, result, line);
+        }
+    } else {
+        for (pName, nProject in projects_by_name) {
+            line = reportForProject(nProject, from, to, result, line);
+        }
+    }
+    return result;
+}
+
+private fn reportForProject(nProj: node<Project>, from: time, to: time, result: Table, line: int) {
+    var pName = nProj->name;
+    var projectTimeSum = 0hour;
+    for (wpName, nWorkpackage in nProj->workpackages) {
+        var wpTimeSum = 0hour;
+        for (employeeId, nEmployeesLogs in nWorkpackage->time_logs) {
+            var employeeName = employees_by_id.get(employeeId)!!->name;
+            var timeSum = 0hour;
+            for (logTime, nTimeLog in nEmployeesLogs[from..to]) {
+                timeSum = timeSum + nTimeLog->amount;
+            }
+            wpTimeSum = wpTimeSum + timeSum;
+            projectTimeSum = projectTimeSum + timeSum;
+            result.set(line, 0, pName);
+            result.set(line, 1, wpName);
+            result.set(line, 2, employeeName);
+            result.set(line, 3, timeSum);
+            line++;
+        }
+        result.set(line, 0, pName);
+        result.set(line, 1, wpName);
+        result.set(line, 2, "TOTAL");
+        result.set(line, 3, wpTimeSum);
+        line++;
+    }
+    result.set(line, 0, pName);
+    result.set(line, 1, "TOTAL");
+    result.set(line, 2, "TOTAL");
+    result.set(line, 3, projectTimeSum);
+    line++;
+    return line;
+}

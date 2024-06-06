@@ -1,0 +1,17 @@
+
+@include("backend");
+
+use io;
+use data_loaders;
+use model;
+
+fn main() {
+    if(projects_by_name == null) {
+        DataLoaders::loadRemunerations("data/remunerations");
+        DataLoaders::loadTimesheets("data/timesheets");
+    }
+}
+
+
+
+

@@ -1,0 +1,35 @@
+// Index employees by their ID
+var employees_by_id: nodeIndex<String, node<Employee>>;
+// Index employees by their name
+var employees_by_name: nodeIndex<String, node<Employee>>;
+// Index projects by their name
+var projects_by_name: nodeIndex<String, node<Project>>;
+
+type Employee {
+    id: String;
+    name: String;
+    gross_remuneration: nodeTime<float?>;
+    /// Date->Project#WP->node
+    time_logs: nodeTime<nodeIndex<node<TimeLog>>>;
+}
+
+type Project {
+    name: String;
+    /// WPName->WP
+    workpackages: nodeIndex<String, node<Workpackage>>;
+}
+
+type Workpackage {
+    name: String;
+    project: node<Project>;
+    /// EmployeeID->TimeLogs
+    time_logs: nodeIndex<String, nodeTime<node<TimeLog>>>;
+}
+
+type TimeLog {
+    employee: node<Employee>;
+    project: node<Project>;
+    workpackage: node<Workpackage>;
+    date: Date;
+    amount: duration;
+}
